@@ -27,6 +27,12 @@ body {
     gap: 2rem;
 }
 
+@media screen and (max-width:566px) {
+    .box {
+        height: 14vmin;
+        width: 14vmin;
+    }
+}
 .box {
     height: 18vmin;
     width: 18vmin;
