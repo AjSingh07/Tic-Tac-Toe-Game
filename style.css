@@ -37,6 +37,12 @@ body {
     color: rgb(107, 94, 73);
     box-shadow: 5px 2px 2px rgba(209, 9, 9, 0.5);
 }
+@media screen and (max-width:566px) {
+    .box {
+        height: 14vmin;
+        width: 14vmin;
+    }
+}
 
 h2 {
     font-size: 3rem;
